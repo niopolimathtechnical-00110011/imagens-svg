@@ -1,0 +1,21 @@
+Arquivos temporários
+
+*.tmp
+*.bak
+*.swp
+*~
+Mac OS
+
+.DS_Store
+.AppleDouble
+Windows
+
+Thumbs.db
+desktop.ini
+IDE
+
+.vscode/
+.idea/
+Logs
+
+*.log

@@ -1,0 +1,43 @@
+<svg height="128px" viewBox="0 0 128 128" width="128px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.7" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.3" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonBright" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="1" result="blur1"/>
+            <feGaussianBlur stdDeviation="2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <linearGradient id="a" gradientTransform="matrix(0.45451 0 0 0.455522 -1210.292114 616.172607)" gradientUnits="userSpaceOnUse" x1="2689.251953" x2="2918.069824" y1="-1106.802979" y2="-1106.802979">
+            <stop offset="0" stop-color="#2a2a2a"/><stop offset="0.0576991" stop-color="#4a4a4a"/><stop offset="0.122204" stop-color="#2a2a2a"/><stop offset="0.873306" stop-color="#2a2a2a"/><stop offset="0.955997" stop-color="#3a3a3a"/><stop offset="1" stop-color="#2a2a2a"/>
+        </linearGradient>
+    </defs>
+    <path d="m 21.976562 12 c -5.527343 0 -9.976562 4.460938 -9.976562 10 v 86.03125 c 0 5.542969 4.449219 10 9.976562 10 h 84.042969 c 5.53125 0 9.980469 -4.457031 9.980469 -10 v -72.085938 c 0 -6.628906 -5.359375 -12 -11.972656 -12 h -46.027344 c -2.453125 0 -4.695312 -1.386718 -5.796875 -3.582031 l -1.503906 -2.992187 c -1.65625 -3.292969 -5.019531 -5.371094 -8.699219 -5.371094 z m 0 0" fill="#1a1a1a" stroke="#333" stroke-width="0.8"/>
+    <path d="m 65.976562 32 c -2.746093 0 -5.226562 1.101562 -7.027343 2.890625 c -2.273438 2.253906 -5.382813 5.109375 -8.632813 5.109375 h -28.339844 c -5.527343 0 -9.976562 4.460938 -9.976562 10 v 55.976562 c 0 5.539063 4.449219 10 9.976562 10 h 84.042969 c 5.53125 0 9.980469 -4.460937 9.980469 -10 v -63.976562 c 0 -5.539062 -4.449219 -10 -9.980469 -10 z m 0 0" fill="#0a0a0a"/>
+    
+    <!-- Chuva de mantras em LARANJA #ff8800 -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.8" fill="#ff8800" filter="url(#neonGlow)">
+        <text x="6" y="35" opacity="0.05">मः</text><text x="6" y="43" opacity="0.12">न</text><text x="6" y="51" opacity="0.25">क्ष्म्यै</text><text x="6" y="59" opacity="0.45">ला</text><text x="6" y="67" opacity="0.65">हा</text><text x="6" y="75" opacity="0.85">म</text><text x="6" y="83" opacity="0.95">ं</text><text x="6" y="91" opacity="0.80">री</text><text x="6" y="99" opacity="0.60">श्</text><text x="6" y="107" opacity="0.35">श्रीं</text><text x="6" y="115" opacity="0.15">ॐ</text>
+        <text x="18" y="30" opacity="0.03">म्</text><text x="18" y="38" opacity="0.08">ह</text><text x="18" y="46" opacity="0.18">ऽ</text><text x="18" y="54" opacity="0.35">स्</text><text x="18" y="62" opacity="0.60">सोऽ</text><text x="18" y="70" opacity="0.85">सोऽह</text><text x="18" y="78" opacity="0.95">सोऽहम्</text><text x="18" y="86" opacity="0.75">हम्</text><text x="18" y="94" opacity="0.50">म्</text><text x="18" y="102" opacity="0.25">ज्ञ</text><text x="18" y="110" opacity="0.10">त</text>
+        <text x="30" y="32" opacity="0.06">ः</text><text x="30" y="40" opacity="0.15">त</text><text x="30" y="48" opacity="0.30">िः</text><text x="30" y="56" opacity="0.50">शान्</text><text x="30" y="64" opacity="0.75">शान्तिः</text><text x="30" y="72" opacity="0.95">शान्तिः</text><text x="30" y="80" opacity="0.90">शान्तिः</text><text x="30" y="88" opacity="0.70">न्तिः</text><text x="30" y="96" opacity="0.45">शा</text><text x="30" y="104" opacity="0.25">ॐ</text><text x="30" y="112" opacity="0.10">ॐ</text>
+        <text x="42" y="28" opacity="0.04">ि</text><text x="42" y="36" opacity="0.10">द्</text><text x="42" y="44" opacity="0.20">ध</text><text x="42" y="52" opacity="0.40">ृ</text><text x="42" y="60" opacity="0.65">म</text><text x="42" y="68" opacity="0.85">स</text><text x="42" y="76" opacity="0.95">समृ</text><text x="42" y="84" opacity="0.80">समृद्</text><text x="42" y="92" opacity="0.60">समृद्ध</text><text x="42" y="100" opacity="0.35">समृद्धि</text><text x="42" y="108" opacity="0.15">द्धि</text>
+        <text x="54" y="34" opacity="0.05">म्</text><text x="54" y="42" opacity="0.12">ह</text><text x="54" y="50" opacity="0.25">ऽ</text><text x="54" y="58" opacity="0.45">स्</text><text x="54" y="66" opacity="0.70">सोऽ</text><text x="54" y="74" opacity="0.90">सोऽह</text><text x="54" y="82" opacity="0.95">सोऽहम्</text><text x="54" y="90" opacity="0.75">हम्</text><text x="54" y="98" opacity="0.50">म्</text><text x="54" y="106" opacity="0.25">ह</text><text x="54" y="114" opacity="0.10">ऽ</text>
+        <text x="66" y="36" opacity="0.08">न</text><text x="66" y="44" opacity="0.18">क्ष्म्यै</text><text x="66" y="52" opacity="0.35">ला</text><text x="66" y="60" opacity="0.55">हा</text><text x="66" y="68" opacity="0.80">म</text><text x="66" y="76" opacity="0.95">ं</text><text x="66" y="84" opacity="0.85">री</text><text x="66" y="92" opacity="0.65">श्</text><text x="66" y="100" opacity="0.40">श्रीं</text><text x="66" y="108" opacity="0.20">ॐ</text><text x="66" y="116" opacity="0.08">मः</text>
+        <text x="78" y="30" opacity="0.06">ि</text><text x="78" y="38" opacity="0.14">द्</text><text x="78" y="46" opacity="0.28">ध</text><text x="78" y="54" opacity="0.48">ृ</text><text x="78" y="62" opacity="0.68">म</text><text x="78" y="70" opacity="0.88">स</text><text x="78" y="78" opacity="0.95">समृ</text><text x="78" y="86" opacity="0.80">समृद्</text><text x="78" y="94" opacity="0.55">समृद्ध</text><text x="78" y="102" opacity="0.30">समृद्धि</text><text x="78" y="110" opacity="0.12">ज्ञ</text>
+        <text x="90" y="32" opacity="0.04">ः</text><text x="90" y="40" opacity="0.10">त</text><text x="90" y="48" opacity="0.22">िः</text><text x="90" y="56" opacity="0.42">शान्</text><text x="90" y="64" opacity="0.65">शान्तिः</text><text x="90" y="72" opacity="0.88">शान्तिः</text><text x="90" y="80" opacity="0.92">शान्तिः</text><text x="90" y="88" opacity="0.72">न्तिः</text><text x="90" y="96" opacity="0.48">शा</text><text x="90" y="104" opacity="0.25">ॐ</text><text x="90" y="112" opacity="0.08">ॐ</text>
+        <text x="102" y="38" opacity="0.07">म्</text><text x="102" y="46" opacity="0.16">ह</text><text x="102" y="54" opacity="0.32">ऽ</text><text x="102" y="62" opacity="0.55">स्</text><text x="102" y="70" opacity="0.78">सोऽ</text><text x="102" y="78" opacity="0.92">सोऽह</text><text x="102" y="86" opacity="0.85">सोऽहम्</text><text x="102" y="94" opacity="0.62">हम्</text><text x="102" y="102" opacity="0.35">म्</text><text x="102" y="110" opacity="0.15">ह</text><text x="102" y="118" opacity="0.05">ऽ</text>
+    </g>
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6.5" fill="#ffcc88" filter="url(#neonBright)">
+        <text x="30" y="72" opacity="0.9">शान्तिः</text><text x="42" y="76" opacity="0.85">समृ</text><text x="54" y="74" opacity="0.9">सोऽह</text><text x="78" y="78" opacity="0.85">समृ</text>
+    </g>
+    
+    <!-- Ícone original de imagens -->
+    <g fill="#ff8800" opacity="0.95">
+        <path d="m 60 72 c -1.101562 0 -2 0.898438 -2 2 s 0.898438 2 2 2 s 2 -0.898438 2 -2 s -0.898438 -2 -2 -2 z m 7 6 l -4 4 l -3 -2 l -4 4 v 1 c 0 1 1 1 1 1 h 14 s 0.945312 -0.070312 1 -1 v -2 z m 0 0"/>
+        <path d="m 56 64 c -3.289062 0 -6 2.710938 -6 6 v 16 c 0 3.289062 2.710938 6 6 6 h 16 c 3.289062 0 6 -2.710938 6 -6 v -16 c 0 -3.289062 -2.710938 -6 -6 -6 z m 0 4 h 16 c 1.140625 0 2 0.859375 2 2 v 16 c 0 1.140625 -0.859375 2 -2 2 h -16 c -1.140625 0 -2 -0.859375 -2 -2 v -16 c 0 -1.140625 0.859375 -2 2 -2 z m 0 0"/>
+    </g>
+    
+    <path d="m 65.976562 32 c -2.746093 0 -5.226562 1.101562 -7.027343 2.890625 c -2.273438 2.253906 -5.382813 5.109375 -8.632813 5.109375 h -28.339844 c -5.527343 0 -9.976562 4.460938 -9.976562 10 v 55.976562 c 0 5.539063 4.449219 10 9.976562 10 h 84.042969 c 5.53125 0 9.980469 -4.460937 9.980469 -10 v -63.976562 c 0 -5.539062 -4.449219 -10 -9.980469 -10 z m 0 0" fill="none" stroke="#aa6600" stroke-width="0.6" opacity="0.4"/>
+</svg>

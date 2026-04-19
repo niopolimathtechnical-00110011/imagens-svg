@@ -1,0 +1,230 @@
+<svg height="128px" viewBox="0 0 128 128" width="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <!-- Filtros de brilho neon -->
+        <filter id="neonRed" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonOrange" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonYellow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonCyan" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonPurple" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonPink" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonWhite" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+
+        <clipPath id="a"><path d="m 32 51 h 36 v 39 h -36 z m 0 0"/></clipPath>
+        <clipPath id="b"><path d="m 31.351562 39.5625 h 37.296876 v 51.050781 h -37.296876 z m 28.242188 31.855469 c 0 -5.023438 -4.289062 -9.101563 -9.582031 -9.101563 c -5.289063 0 -9.578125 4.078125 -9.578125 9.101563 c 0 5.027343 4.289062 9.101562 9.578125 9.101562 c 5.292969 0 9.582031 -4.074219 9.582031 -9.101562 z m 0 0"/></clipPath>
+        
+        <linearGradient id="c" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#9a9996"/>
+            <stop offset="0.0414257" stop-color="#c0bfbc"/>
+            <stop offset="0.0815191" stop-color="#9a9996"/>
+            <stop offset="0.899024" stop-color="#77767b"/>
+            <stop offset="0.952865" stop-color="#c0bfbc"/>
+            <stop offset="1" stop-color="#77767b"/>
+        </linearGradient>
+        <linearGradient id="d" gradientTransform="matrix(0.129522 0 0 0.12304 -20.172717 -8.276901)" x1="403.496033" x2="678.908813" xlink:href="#c" y1="793.565552" y2="793.565552"/>
+        
+        <clipPath id="e"><path d="m 32 50 h 36 v 39 h -36 z m 0 0"/></clipPath>
+        <clipPath id="f"><path d="m 31.351562 39.5625 h 37.296876 v 51.050781 h -37.296876 z m 28.242188 31.855469 c 0 -5.023438 -4.289062 -9.101563 -9.582031 -9.101563 c -5.289063 0 -9.578125 4.078125 -9.578125 9.101563 c 0 5.027343 4.289062 9.101562 9.578125 9.101562 c 5.292969 0 9.582031 -4.074219 9.582031 -9.101562 z m 0 0"/></clipPath>
+        
+        <clipPath id="g"><path d="m 32 40 h 36 v 40 h -36 z m 0 0"/></clipPath>
+        <clipPath id="h"><path d="m 31.351562 39.5625 h 37.296876 v 51.050781 h -37.296876 z m 28.242188 31.855469 c 0 -5.023438 -4.289062 -9.101563 -9.582031 -9.101563 c -5.289063 0 -9.578125 4.078125 -9.578125 9.101563 c 0 5.027343 4.289062 9.101562 9.578125 9.101562 c 5.292969 0 9.582031 -4.074219 9.582031 -9.101562 z m 0 0"/></clipPath>
+        
+        <linearGradient id="i" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#3d3846"/>
+            <stop offset="0.0279595" stop-color="#79718e"/>
+            <stop offset="0.0654033" stop-color="#4e475a"/>
+            <stop offset="0.938181" stop-color="#716881"/>
+            <stop offset="0.971878" stop-color="#847a96"/>
+            <stop offset="1" stop-color="#3d3846"/>
+        </linearGradient>
+        <linearGradient id="j" gradientTransform="matrix(0.224856 0 0 0.22209 -200.939247 25.114628)" x1="928.741516" x2="1302.490479" xlink:href="#i" y1="216.638611" y2="216.638611"/>
+        
+        <linearGradient id="k" gradientTransform="matrix(0.45451 0 0 0.455522 -1210.292114 612.172607)" gradientUnits="userSpaceOnUse" x1="2831.385498" x2="2732.762939" y1="-1295.160156" y2="-1196.75647">
+            <stop offset="0" stop-color="#0d1117"/>
+            <stop offset="1" stop-color="#161b22"/>
+        </linearGradient>
+        
+        <clipPath id="l"><path d="m 60 81 h 36 v 39 h -36 z m 0 0"/></clipPath>
+        <clipPath id="m"><path d="m 59.351562 69.5625 h 37.296876 v 51.050781 h -37.296876 z m 28.242188 31.855469 c 0 -5.023438 -4.289062 -9.101563 -9.582031 -9.101563 c -5.289063 0 -9.578125 4.078125 -9.578125 9.101563 c 0 5.027343 4.289062 9.101562 9.578125 9.101562 c 5.292969 0 9.582031 -4.074219 9.582031 -9.101562 z m 0 0"/></clipPath>
+        
+        <linearGradient id="n" gradientTransform="matrix(0.129522 0 0 0.12304 7.827283 21.723099)" x1="403.496033" x2="678.908813" xlink:href="#c" y1="793.565552" y2="793.565552"/>
+        
+        <clipPath id="o"><path d="m 60 80 h 36 v 39 h -36 z m 0 0"/></clipPath>
+        <clipPath id="p"><path d="m 59.351562 69.5625 h 37.296876 v 51.050781 h -37.296876 z m 28.242188 31.855469 c 0 -5.023438 -4.289062 -9.101563 -9.582031 -9.101563 c -5.289063 0 -9.578125 4.078125 -9.578125 9.101563 c 0 5.027343 4.289062 9.101562 9.578125 9.101562 c 5.292969 0 9.582031 -4.074219 9.582031 -9.101562 z m 0 0"/></clipPath>
+        
+        <clipPath id="q"><path d="m 60 70 h 36 v 40 h -36 z m 0 0"/></clipPath>
+        <clipPath id="r"><path d="m 59.351562 69.5625 h 37.296876 v 51.050781 h -37.296876 z m 28.242188 31.855469 c 0 -5.023438 -4.289062 -9.101563 -9.582031 -9.101563 c -5.289063 0 -9.578125 4.078125 -9.578125 9.101563 c 0 5.027343 4.289062 9.101562 9.578125 9.101562 c 5.292969 0 9.582031 -4.074219 9.582031 -9.101562 z m 0 0"/></clipPath>
+        
+        <linearGradient id="s" gradientTransform="matrix(0.224856 0 0 0.22209 -172.939247 55.114628)" x1="928.741516" x2="1302.490479" xlink:href="#i" y1="216.638611" y2="216.638611"/>
+        
+        <linearGradient id="t" gradientTransform="matrix(0.337063 0 0 0.330795 -867.055597 477.291929)" gradientUnits="userSpaceOnUse" x1="2704.463135" x2="2868.168457" y1="-1148.187378" y2="-1311.529175">
+            <stop offset="0" stop-color="#0d1117"/>
+            <stop offset="1" stop-color="#161b22"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Monitor esquerdo (grupo de trabalho 1) - Estrutura original -->
+    <g clip-path="url(#a)">
+        <g clip-path="url(#b)">
+            <path d="m 34.5625 51.777344 h 30.875 c 1.417969 0 2.5625 1.136718 2.5625 2.542968 v 33.136719 c 0 1.410157 -1.144531 2.542969 -2.5625 2.542969 h -30.875 c -1.417969 0 -2.5625 -1.132812 -2.5625 -2.542969 v -33.136719 c 0 -1.40625 1.144531 -2.542968 2.5625 -2.542968 z m 0 0" fill="url(#d)"/>
+        </g>
+    </g>
+    <g clip-path="url(#e)">
+        <g clip-path="url(#f)">
+            <path d="m 34.5625 50.289062 h 30.875 c 1.417969 0 2.5625 1.132813 2.5625 2.542969 v 33.132813 c 0 1.410156 -1.144531 2.542968 -2.5625 2.542968 h -30.875 c -1.417969 0 -2.5625 -1.132812 -2.5625 -2.542968 v -33.132813 c 0 -1.410156 1.144531 -2.542969 2.5625 -2.542969 z m 0 0" fill="#1a1a2e"/>
+        </g>
+    </g>
+    <g clip-path="url(#g)">
+        <g clip-path="url(#h)">
+            <path d="m 32 40.175781 h 36 v 39.816407 h -36 z m 0 0" fill="#0a0a15" fill-opacity="0.95"/>
+        </g>
+    </g>
+
+    <!-- Corpo do monitor esquerdo -->
+    <path d="m 92 15.105469 v 53.789062 c 0 3.921875 -3.175781 7.105469 -7.089844 7.105469 h -69.820312 c -3.914063 0 -7.089844 -3.183594 -7.089844 -7.105469 v -53.789062 c 0 -3.921875 3.175781 -7.105469 7.089844 -7.105469 h 69.820312 c 3.914063 0 7.089844 3.183594 7.089844 7.105469 z m 0 0" fill="url(#j)"/>
+    <path d="m 92 15.105469 v 50.832031 c 0 3.925781 -3.175781 7.105469 -7.089844 7.105469 h -69.820312 c -3.914063 0 -7.089844 -3.179688 -7.089844 -7.105469 v -50.832031 c 0 -3.921875 3.175781 -7.105469 7.089844 -7.105469 h 69.820312 c 3.914063 0 7.089844 3.183594 7.089844 7.105469 z m 0 0" fill="#0d1117"/>
+    <path d="m 15.363281 10 h 69.183594 c 3.011719 0 5.453125 2.449219 5.453125 5.464844 v 50.070312 c 0 3.015625 -2.441406 5.464844 -5.453125 5.464844 h -69.183594 c -3.015625 0 -5.457031 -2.449219 -5.457031 -5.464844 v -50.070312 c 0 -3.015625 2.441406 -5.464844 5.457031 -5.464844 z m 0 0" fill="url(#k)"/>
+
+    <!-- ========== CHUVA DE MANTRAS DENTRO DO MONITOR ESQUERDO (ALINHAMENTO VERTICAL) ========== -->
+    <!-- Tamanho dos caracteres: 6px (mesmo das pastas), alinhados verticalmente -->
+    <g clip-path="url(#a)">
+        <!-- Coluna 1 - Vermelho -->
+        <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#ff4444" filter="url(#neonRed)">
+            <text x="37" y="56" opacity="0.08">मः</text>
+            <text x="37" y="64" opacity="0.25">न</text>
+            <text x="37" y="72" opacity="0.55">क्ष्म्यै</text>
+            <text x="37" y="80" opacity="0.85">ला</text>
+            <text x="37" y="88" opacity="0.95">हा</text>
+            <text x="37" y="96" opacity="0.70">म</text>
+            <text x="37" y="104" opacity="0.40">ं</text>
+            <text x="37" y="112" opacity="0.15">री</text>
+        </g>
+        
+        <!-- Coluna 2 - Laranja -->
+        <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#ffaa33" filter="url(#neonOrange)">
+            <text x="47" y="54" opacity="0.05">म्</text>
+            <text x="47" y="62" opacity="0.15">ह</text>
+            <text x="47" y="70" opacity="0.35">ऽ</text>
+            <text x="47" y="78" opacity="0.65">स्</text>
+            <text x="47" y="86" opacity="0.90">सोऽ</text>
+            <text x="47" y="94" opacity="0.95">सोऽह</text>
+            <text x="47" y="102" opacity="0.75">सोऽहम्</text>
+            <text x="47" y="110" opacity="0.45">हम्</text>
+            <text x="47" y="118" opacity="0.20">म्</text>
+        </g>
+        
+        <!-- Coluna 3 - Amarelo -->
+        <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#ffff44" filter="url(#neonYellow)">
+            <text x="57" y="58" opacity="0.10">ः</text>
+            <text x="57" y="66" opacity="0.30">त</text>
+            <text x="57" y="74" opacity="0.60">िः</text>
+            <text x="57" y="82" opacity="0.85">शान्</text>
+            <text x="57" y="90" opacity="0.95">शान्तिः</text>
+            <text x="57" y="98" opacity="0.80">शान्तिः</text>
+            <text x="57" y="106" opacity="0.55">शान्तिः</text>
+            <text x="57" y="114" opacity="0.25">न्तिः</text>
+        </g>
+        
+        <!-- Destaque brilhante -->
+        <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6.5" fill="#ffffff" filter="url(#neonWhite)">
+            <text x="57" y="90" opacity="0.95">शान्तिः</text>
+            <text x="47" y="94" opacity="0.90">सोऽह</text>
+        </g>
+    </g>
+
+    <!-- Monitor direito (grupo de trabalho 2) - Estrutura original -->
+    <g clip-path="url(#l)">
+        <g clip-path="url(#m)">
+            <path d="m 62.5625 81.777344 h 30.875 c 1.417969 0 2.5625 1.136718 2.5625 2.542968 v 33.136719 c 0 1.410157 -1.144531 2.542969 -2.5625 2.542969 h -30.875 c -1.417969 0 -2.5625 -1.132812 -2.5625 -2.542969 v -33.136719 c 0 -1.40625 1.144531 -2.542968 2.5625 -2.542968 z m 0 0" fill="url(#n)"/>
+        </g>
+    </g>
+    <g clip-path="url(#o)">
+        <g clip-path="url(#p)">
+            <path d="m 62.5625 80.289062 h 30.875 c 1.417969 0 2.5625 1.132813 2.5625 2.542969 v 33.132813 c 0 1.410156 -1.144531 2.542968 -2.5625 2.542968 h -30.875 c -1.417969 0 -2.5625 -1.132812 -2.5625 -2.542968 v -33.132813 c 0 -1.410156 1.144531 -2.542969 2.5625 -2.542969 z m 0 0" fill="#1a1a2e"/>
+        </g>
+    </g>
+    <g clip-path="url(#q)">
+        <g clip-path="url(#r)">
+            <path d="m 60 70.175781 h 36 v 39.816407 h -36 z m 0 0" fill="#0a0a15" fill-opacity="0.95"/>
+        </g>
+    </g>
+
+    <!-- Corpo do monitor direito -->
+    <path d="m 120 45.105469 v 53.789062 c 0 3.921875 -3.175781 7.105469 -7.089844 7.105469 h -69.820312 c -3.914063 0 -7.089844 -3.183594 -7.089844 -7.105469 v -53.789062 c 0 -3.921875 3.175781 -7.105469 7.089844 -7.105469 h 69.820312 c 3.914063 0 7.089844 3.183594 7.089844 7.105469 z m 0 0" fill="url(#s)"/>
+    <path d="m 120 45.105469 v 50.832031 c 0 3.925781 -3.175781 7.105469 -7.089844 7.105469 h -69.820312 c -3.914063 0 -7.089844 -3.179688 -7.089844 -7.105469 v -50.832031 c 0 -3.921875 3.175781 -7.105469 7.089844 -7.105469 h 69.820312 c 3.914063 0 7.089844 3.183594 7.089844 7.105469 z m 0 0" fill="#0d1117"/>
+    <path d="m 43.363281 40 h 69.183594 c 3.011719 0 5.453125 2.449219 5.453125 5.464844 v 50.070312 c 0 3.015625 -2.441406 5.464844 -5.453125 5.464844 h -69.183594 c -3.015625 0 -5.457031 -2.449219 -5.457031 -5.464844 v -50.070312 c 0 -3.015625 2.441406 -5.464844 5.457031 -5.464844 z m 0 0" fill="url(#t)"/>
+
+    <!-- ========== CHUVA DE MANTRAS DENTRO DO MONITOR DIREITO (ALINHAMENTO VERTICAL) ========== -->
+    <g clip-path="url(#l)">
+        <!-- Coluna 1 - Ciano -->
+        <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#44ffff" filter="url(#neonCyan)">
+            <text x="65" y="86" opacity="0.05">ि</text>
+            <text x="65" y="94" opacity="0.20">द्</text>
+            <text x="65" y="102" opacity="0.50">ध</text>
+            <text x="65" y="110" opacity="0.80">ृ</text>
+            <text x="65" y="118" opacity="0.95">म</text>
+        </g>
+        
+        <!-- Coluna 2 - Roxo -->
+        <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#aa66ff" filter="url(#neonPurple)">
+            <text x="75" y="84" opacity="0.08">स</text>
+            <text x="75" y="92" opacity="0.25">समृ</text>
+            <text x="75" y="100" opacity="0.55">समृद्</text>
+            <text x="75" y="108" opacity="0.85">समृद्ध</text>
+            <text x="75" y="116" opacity="0.95">समृद्धि</text>
+        </g>
+        
+        <!-- Coluna 3 - Rosa -->
+        <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#ff66cc" filter="url(#neonPink)">
+            <text x="85" y="88" opacity="0.10">द्धि</text>
+            <text x="85" y="96" opacity="0.35">समृ</text>
+            <text x="85" y="104" opacity="0.65">समृद्</text>
+            <text x="85" y="112" opacity="0.90">समृद्ध</text>
+            <text x="85" y="120" opacity="0.70">समृद्धि</text>
+        </g>
+        
+        <!-- Destaque brilhante -->
+        <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6.5" fill="#ffffff" filter="url(#neonWhite)">
+            <text x="65" y="118" opacity="0.90">म</text>
+            <text x="75" y="116" opacity="0.95">समृद्धि</text>
+            <text x="85" y="112" opacity="0.85">समृद्ध</text>
+        </g>
+    </g>
+
+    <!-- Linhas de conexão de rede entre os monitores -->
+    <path d="m 68 48 c 2 2 4 4 4 8 c 0 4 -2 6 -4 8" fill="none" stroke="#44ffff" stroke-width="0.8" opacity="0.4" stroke-dasharray="2,3"/>
+    <path d="m 72 52 c 2 1 4 3 4 6 c 0 3 -2 5 -4 6" fill="none" stroke="#ff66cc" stroke-width="0.8" opacity="0.4" stroke-dasharray="2,3"/>
+    
+    <!-- Pontos de rede (conexão) -->
+    <circle cx="68" cy="48" r="1.5" fill="#44ffff" opacity="0.5"/>
+    <circle cx="72" cy="52" r="1.5" fill="#ff66cc" opacity="0.5"/>
+    <circle cx="72" cy="64" r="1.5" fill="#ff66cc" opacity="0.5"/>
+    <circle cx="68" cy="64" r="1.5" fill="#44ffff" opacity="0.5"/>
+</svg>

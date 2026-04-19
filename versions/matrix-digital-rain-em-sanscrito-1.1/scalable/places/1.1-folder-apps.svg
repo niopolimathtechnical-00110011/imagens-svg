@@ -1,0 +1,317 @@
+<svg height="128px" viewBox="0 0 128 128" width="128px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Filtro de brilho neon para os caracteres -->
+        <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.7" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.3" result="blur2"/>
+            <feMerge>
+                <feMergeNode in="blur2"/>
+                <feMergeNode in="blur1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <!-- Filtro mais intenso para caracteres brilhantes -->
+        <filter id="neonBright" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="1" result="blur1"/>
+            <feGaussianBlur stdDeviation="2.2" result="blur2"/>
+            <feMerge>
+                <feMergeNode in="blur2"/>
+                <feMergeNode in="blur1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        
+        <!-- Gradiente da aba da pasta -->
+        <linearGradient id="a" gradientTransform="matrix(0.45451 0 0 0.455522 -1210.292114 616.172607)" gradientUnits="userSpaceOnUse" x1="2689.251953" x2="2918.069824" y1="-1106.802979" y2="-1106.802979">
+            <stop offset="0" stop-color="#2a2a2a"/>
+            <stop offset="0.0576991" stop-color="#4a4a4a"/>
+            <stop offset="0.122204" stop-color="#2a2a2a"/>
+            <stop offset="0.873306" stop-color="#2a2a2a"/>
+            <stop offset="0.955997" stop-color="#3a3a3a"/>
+            <stop offset="1" stop-color="#2a2a2a"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- ========== FUNDO PRETO DA PASTA ========== -->
+    <!-- Aba da pasta (parte superior) -->
+    <path d="m 21.976562 12 c -5.527343 0 -9.976562 4.460938 -9.976562 10 v 86.03125 c 0 5.542969 4.449219 10 9.976562 10 h 84.042969 c 5.53125 0 9.980469 -4.457031 9.980469 -10 v -72.085938 c 0 -6.628906 -5.359375 -12 -11.972656 -12 h -46.027344 c -2.453125 0 -4.695312 -1.386718 -5.796875 -3.582031 l -1.503906 -2.992187 c -1.65625 -3.292969 -5.019531 -5.371094 -8.699219 -5.371094 z m 0 0" fill="#1a1a1a" stroke="#333333" stroke-width="0.8"/>
+    
+    <!-- Corpo da pasta (fundo preto principal) -->
+    <path d="m 65.976562 32 c -2.746093 0 -5.226562 1.101562 -7.027343 2.890625 c -2.273438 2.253906 -5.382813 5.109375 -8.632813 5.109375 h -28.339844 c -5.527343 0 -9.976562 4.460938 -9.976562 10 v 55.976562 c 0 5.539063 4.449219 10 9.976562 10 h 84.042969 c 5.53125 0 9.980469 -4.460937 9.980469 -10 v -63.976562 c 0 -5.539062 -4.449219 -10 -9.980469 -10 z m 0 0" fill="#0a0a0a"/>
+    
+    <!-- ========== CHUVA DE MANTRA EM SÂNSCRITO (LEITURA VERTICAL CAINDO) ========== -->
+    <!-- Mantras incluídos:
+         1. ॐ श्रीं महालक्ष्म्यै नमः (Om Shreem Mahalakshmiyei Namaha)
+         2. सोऽहम् (So'ham)
+         3. ॐ शान्तिः शान्तिः शान्तिः (Om Shanti Shanti Shanti)
+         4. कृतज्ञ (Kritajna - Gratidão)
+         5. उद्घाट (Ughata - Abra-te)
+         6. समृद्धि (Samriddhi - Prosperidade)
+    -->
+    
+    <!-- COLUNA 1: ॐ श्रीं महालक्ष्म्यै नमः (completo, caindo) -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="6" y="30" opacity="0.05">मः</text>
+        <text x="6" y="38" opacity="0.12">न</text>
+        <text x="6" y="46" opacity="0.25">क्ष्म्यै</text>
+        <text x="6" y="54" opacity="0.45">ला</text>
+        <text x="6" y="62" opacity="0.65">हा</text>
+        <text x="6" y="70" opacity="0.85">म</text>
+        <text x="6" y="78" opacity="0.95">ं</text>
+        <text x="6" y="86" opacity="0.85">री</text>
+        <text x="6" y="94" opacity="0.65">श्</text>
+        <text x="6" y="102" opacity="0.40">श्रीं</text>
+        <text x="6" y="110" opacity="0.20">ॐ</text>
+        <text x="6" y="118" opacity="0.08">ॐ</text>
+    </g>
+    
+    <!-- COLUNA 2: सोऽहम् + कृतज्ञ alternados -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="16" y="28" opacity="0.03">म्</text>
+        <text x="16" y="36" opacity="0.08">ह</text>
+        <text x="16" y="44" opacity="0.18">ऽ</text>
+        <text x="16" y="52" opacity="0.35">स्</text>
+        <text x="16" y="60" opacity="0.60">सोऽ</text>
+        <text x="16" y="68" opacity="0.85">सोऽह</text>
+        <text x="16" y="76" opacity="0.95">सोऽहम्</text>
+        <text x="16" y="84" opacity="0.80">हम्</text>
+        <text x="16" y="92" opacity="0.55">म्</text>
+        <text x="16" y="100" opacity="0.30">ज्ञ</text>
+        <text x="16" y="108" opacity="0.12">त</text>
+        <text x="16" y="116" opacity="0.04">कृ</text>
+    </g>
+    
+    <!-- COLUNA 3: ॐ शान्तिः शान्तिः शान्तिः -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="26" y="32" opacity="0.06">ः</text>
+        <text x="26" y="40" opacity="0.15">त</text>
+        <text x="26" y="48" opacity="0.30">िः</text>
+        <text x="26" y="56" opacity="0.50">शान्</text>
+        <text x="26" y="64" opacity="0.75">शान्तिः</text>
+        <text x="26" y="72" opacity="0.95">शान्तिः</text>
+        <text x="26" y="80" opacity="0.90">शान्तिः</text>
+        <text x="26" y="88" opacity="0.70">न्तिः</text>
+        <text x="26" y="96" opacity="0.45">शा</text>
+        <text x="26" y="104" opacity="0.25">ॐ</text>
+        <text x="26" y="112" opacity="0.10">ॐ</text>
+    </g>
+    
+    <!-- COLUNA 4: समृद्धि (Prosperidade) -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="36" y="26" opacity="0.02">ि</text>
+        <text x="36" y="34" opacity="0.06">द्</text>
+        <text x="36" y="42" opacity="0.12">ध</text>
+        <text x="36" y="50" opacity="0.25">ृ</text>
+        <text x="36" y="58" opacity="0.45">म</text>
+        <text x="36" y="66" opacity="0.70">स</text>
+        <text x="36" y="74" opacity="0.90">समृ</text>
+        <text x="36" y="82" opacity="0.95">समृद्</text>
+        <text x="36" y="90" opacity="0.80">समृद्ध</text>
+        <text x="36" y="98" opacity="0.55">समृद्धि</text>
+        <text x="36" y="106" opacity="0.30">द्धि</text>
+        <text x="36" y="114" opacity="0.10">ि</text>
+    </g>
+    
+    <!-- COLUNA 5: उद्घाट (Abra-te) + कृतज्ञ -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.8" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="46" y="30" opacity="0.04">ट</text>
+        <text x="46" y="38" opacity="0.10">ा</text>
+        <text x="46" y="46" opacity="0.20">घ</text>
+        <text x="46" y="54" opacity="0.40">द्</text>
+        <text x="46" y="62" opacity="0.65">उ</text>
+        <text x="46" y="70" opacity="0.85">उद्</text>
+        <text x="46" y="78" opacity="0.95">उद्घा</text>
+        <text x="46" y="86" opacity="0.85">उद्घाट</text>
+        <text x="46" y="94" opacity="0.60">घाट</text>
+        <text x="46" y="102" opacity="0.35">ज्ञ</text>
+        <text x="46" y="110" opacity="0.15">त</text>
+        <text x="46" y="118" opacity="0.05">कृ</text>
+    </g>
+    
+    <!-- COLUNA 6: सोऽहम् (Eu Sou) repetido -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="56" y="28" opacity="0.05">म्</text>
+        <text x="56" y="36" opacity="0.12">ह</text>
+        <text x="56" y="44" opacity="0.25">ऽ</text>
+        <text x="56" y="52" opacity="0.45">स्</text>
+        <text x="56" y="60" opacity="0.70">सोऽ</text>
+        <text x="56" y="68" opacity="0.90">सोऽह</text>
+        <text x="56" y="76" opacity="0.98">सोऽहम्</text>
+        <text x="56" y="84" opacity="0.85">हम्</text>
+        <text x="56" y="92" opacity="0.60">म्</text>
+        <text x="56" y="100" opacity="0.35">ह</text>
+        <text x="56" y="108" opacity="0.15">ऽ</text>
+        <text x="56" y="116" opacity="0.06">स्</text>
+    </g>
+    
+    <!-- COLUNA 7: ॐ श्रीं महालक्ष्म्यै नमः (segunda ocorrência) -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="66" y="34" opacity="0.08">न</text>
+        <text x="66" y="42" opacity="0.18">क्ष्म्यै</text>
+        <text x="66" y="50" opacity="0.35">ला</text>
+        <text x="66" y="58" opacity="0.55">हा</text>
+        <text x="66" y="66" opacity="0.80">म</text>
+        <text x="66" y="74" opacity="0.95">ं</text>
+        <text x="66" y="82" opacity="0.90">री</text>
+        <text x="66" y="90" opacity="0.70">श्</text>
+        <text x="66" y="98" opacity="0.45">श्रीं</text>
+        <text x="66" y="106" opacity="0.25">ॐ</text>
+        <text x="66" y="114" opacity="0.10">मः</text>
+    </g>
+    
+    <!-- COLUNA 8: समृद्धि + कृतज्ञ -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.8" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="76" y="32" opacity="0.06">ि</text>
+        <text x="76" y="40" opacity="0.14">द्</text>
+        <text x="76" y="48" opacity="0.28">ध</text>
+        <text x="76" y="56" opacity="0.48">ृ</text>
+        <text x="76" y="64" opacity="0.68">म</text>
+        <text x="76" y="72" opacity="0.88">स</text>
+        <text x="76" y="80" opacity="0.95">समृ</text>
+        <text x="76" y="88" opacity="0.82">समृद्</text>
+        <text x="76" y="96" opacity="0.58">समृद्ध</text>
+        <text x="76" y="104" opacity="0.32">समृद्धि</text>
+        <text x="76" y="112" opacity="0.12">ज्ञ</text>
+        <text x="76" y="120" opacity="0.04">त</text>
+    </g>
+    
+    <!-- COLUNA 9: ॐ शान्तिः शान्तिः शान्तिः -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="86" y="30" opacity="0.04">ः</text>
+        <text x="86" y="38" opacity="0.10">त</text>
+        <text x="86" y="46" opacity="0.22">िः</text>
+        <text x="86" y="54" opacity="0.42">शान्</text>
+        <text x="86" y="62" opacity="0.65">शान्तिः</text>
+        <text x="86" y="70" opacity="0.88">शान्तिः</text>
+        <text x="86" y="78" opacity="0.92">शान्तिः</text>
+        <text x="86" y="86" opacity="0.75">न्तिः</text>
+        <text x="86" y="94" opacity="0.50">शा</text>
+        <text x="86" y="102" opacity="0.28">ॐ</text>
+        <text x="86" y="110" opacity="0.12">ॐ</text>
+    </g>
+    
+    <!-- COLUNA 10: सोऽहम् + उद्घाट -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="96" y="36" opacity="0.07">म्</text>
+        <text x="96" y="44" opacity="0.16">ह</text>
+        <text x="96" y="52" opacity="0.32">ऽ</text>
+        <text x="96" y="60" opacity="0.55">स्</text>
+        <text x="96" y="68" opacity="0.78">सोऽ</text>
+        <text x="96" y="76" opacity="0.92">सोऽह</text>
+        <text x="96" y="84" opacity="0.85">सोऽहम्</text>
+        <text x="96" y="92" opacity="0.62">हम्</text>
+        <text x="96" y="100" opacity="0.38">ट</text>
+        <text x="96" y="108" opacity="0.18">ा</text>
+        <text x="96" y="116" opacity="0.06">घ</text>
+    </g>
+    
+    <!-- COLUNA 11: ॐ श्रीं महालक्ष्म्यै नमás (última) -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#00ff41" filter="url(#neonGlow)">
+        <text x="106" y="34" opacity="0.05">क्ष्म्यै</text>
+        <text x="106" y="42" opacity="0.12">ला</text>
+        <text x="106" y="50" opacity="0.25">हा</text>
+        <text x="106" y="58" opacity="0.45">म</text>
+        <text x="106" y="66" opacity="0.70">ं</text>
+        <text x="106" y="74" opacity="0.88">री</text>
+        <text x="106" y="82" opacity="0.92">श्</text>
+        <text x="106" y="90" opacity="0.75">श्रीं</text>
+        <text x="106" y="98" opacity="0.50">ॐ</text>
+        <text x="106" y="106" opacity="0.28">न</text>
+        <text x="106" y="114" opacity="0.10">मः</text>
+    </g>
+    
+    <!-- ========== CARACTERES SUPER BRILHANTES (DESTAQUE) ========== -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6.5" fill="#aaffcc" filter="url(#neonBright)">
+        <!-- Destaques no meio da chuva -->
+        <text x="6" y="78" opacity="0.9">ं</text>
+        <text x="26" y="72" opacity="0.85">शान्तिः</text>
+        <text x="46" y="78" opacity="0.9">उद्घाट</text>
+        <text x="56" y="76" opacity="0.95">सोऽहम्</text>
+        <text x="36" y="90" opacity="0.85">समृद्ध</text>
+        <text x="66" y="74" opacity="0.88">ं</text>
+        <text x="76" y="80" opacity="0.82">समृ</text>
+        <text x="86" y="70" opacity="0.8">शान्तिः</text>
+        <text x="96" y="76" opacity="0.85">सोऽह</text>
+        <text x="106" y="74" opacity="0.8">री</text>
+    </g>
+    
+    <!-- Caracteres especiais "Om" brilhando intensamente -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="7" fill="#7fff9e" filter="url(#neonBright)">
+        <text x="6" y="110" opacity="0.6">ॐ</text>
+        <text x="26" y="104" opacity="0.55">ॐ</text>
+        <text x="66" y="106" opacity="0.5">ॐ</text>
+        <text x="86" y="102" opacity="0.45">ॐ</text>
+        <text x="106" y="98" opacity="0.5">ॐ</text>
+    </g>
+    
+    <!-- ========== MALETA COM FERRAMENTAS ========== -->
+    <g opacity="0.96">
+        <!-- Corpo da maleta -->
+        <rect x="20" y="52" width="34" height="26" rx="3" ry="3" fill="#0d1f2d" stroke="#1a4d5e" stroke-width="1.5"/>
+        <!-- Alça -->
+        <path d="m 28 52 v -3 c 0 -2.5 2 -4.5 6 -4.5 s 6 2 6 4.5 v 3" fill="none" stroke="#1a4d5e" stroke-width="1.8" stroke-linecap="round"/>
+        <!-- Fechos -->
+        <rect x="24" y="55" width="3.5" height="2.5" rx="0.8" fill="#d4a32e" opacity="0.85"/>
+        <rect x="46.5" y="55" width="3.5" height="2.5" rx="0.8" fill="#d4a32e" opacity="0.85"/>
+        
+        <!-- Esquadro -->
+        <polygon points="26,72 26,60 38,72" fill="#d4a32e" stroke="#b8891a" stroke-width="1"/>
+        <path d="m 26 70 l 1.5 0 l 0 -1.5" fill="none" stroke="#8a6912" stroke-width="0.7"/>
+        
+        <!-- Compasso -->
+        <line x1="45" y1="57" x2="38" y2="73" stroke="#8899aa" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="45" y1="57" x2="50" y2="73" stroke="#8899aa" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="45" cy="57" r="2" fill="#667788"/>
+        <circle cx="38" cy="73" r="0.9" fill="#556677"/>
+        <circle cx="50" cy="73" r="0.9" fill="#556677"/>
+        
+        <!-- Detalhe de circuito na maleta -->
+        <path d="m 54 65 l 2 0" stroke="#00ff41" stroke-width="0.8" opacity="0.5" stroke-dasharray="1.5,1"/>
+    </g>
+    
+    <!-- ========== ROBÔ/AUTÔMATO ========== -->
+    <g opacity="0.96">
+        <!-- Corpo -->
+        <rect x="68" y="54" width="22" height="12" rx="3" ry="3" fill="#0d1f2d" stroke="#1a4d5e" stroke-width="1.2"/>
+        
+        <!-- Detalhes do corpo -->
+        <rect x="72" y="57" width="4.5" height="6" rx="1" fill="#1a3a4a" opacity="0.7"/>
+        <rect x="81.5" y="57" width="4.5" height="6" rx="1" fill="#1a3a4a" opacity="0.7"/>
+        
+        <!-- Cabeça -->
+        <rect x="70" y="43" width="18" height="13" rx="4" ry="4" fill="#0d1f2d" stroke="#1a4d5e" stroke-width="1.2"/>
+        
+        <!-- Olhos verde neon Matrix -->
+        <circle cx="76" cy="49" r="2.8" fill="#003300" stroke="#00ff41" stroke-width="0.5"/>
+        <circle cx="82" cy="49" r="2.8" fill="#003300" stroke="#00ff41" stroke-width="0.5"/>
+        <circle cx="76.5" cy="48.5" r="1.2" fill="#00ff41" opacity="0.9"/>
+        <circle cx="82.5" cy="48.5" r="1.2" fill="#00ff41" opacity="0.9"/>
+        
+        <!-- Antena -->
+        <line x1="79" y1="43" x2="79" y2="37" stroke="#1a4d5e" stroke-width="1.3" stroke-linecap="round"/>
+        <circle cx="79" cy="36" r="2" fill="#d4a32e"/>
+        
+        <!-- Boca (grade) -->
+        <rect x="73" y="52.5" width="12" height="2.5" rx="1" fill="#0a1a1a" stroke="#1a4d5e" stroke-width="0.3"/>
+        <line x1="75.5" y1="52.5" x2="75.5" y2="55" stroke="#1a4d5e" stroke-width="0.6"/>
+        <line x1="78" y1="52.5" x2="78" y2="55" stroke="#1a4d5e" stroke-width="0.6"/>
+        <line x1="80.5" y1="52.5" x2="80.5" y2="55" stroke="#1a4d5e" stroke-width="0.6"/>
+        <line x1="83" y1="52.5" x2="83" y2="55" stroke="#1a4d5e" stroke-width="0.6"/>
+        
+        <!-- Braços -->
+        <rect x="65" y="56" width="3.5" height="7" rx="1.5" fill="#0d1f2d" stroke="#1a4d5e" stroke-width="0.8"/>
+        <rect x="89.5" y="56" width="3.5" height="7" rx="1.5" fill="#0d1f2d" stroke="#1a4d5e" stroke-width="0.8"/>
+        
+        <!-- Pés -->
+        <rect x="71" y="66" width="6" height="3.5" rx="1.5" fill="#0d1f2d" stroke="#1a4d5e" stroke-width="0.8"/>
+        <rect x="81" y="66" width="6" height="3.5" rx="1.5" fill="#0d1f2d" stroke="#1a4d5e" stroke-width="0.8"/>
+    </g>
+    
+    <!-- Linha de conexão robô-maleta -->
+    <path d="m 54 65 l 5 0 l 2 -3 l 4 0" fill="none" stroke="#00ff41" stroke-width="0.8" opacity="0.5" stroke-dasharray="2,1.5"/>
+    <circle cx="54" cy="65" r="1.2" fill="#00ff41" opacity="0.4"/>
+    
+    <!-- ========== BORDA EXTERNA DA PASTA ========== -->
+    <path d="m 65.976562 32 c -2.746093 0 -5.226562 1.101562 -7.027343 2.890625 c -2.273438 2.253906 -5.382813 5.109375 -8.632813 5.109375 h -28.339844 c -5.527343 0 -9.976562 4.460938 -9.976562 10 v 55.976562 c 0 5.539063 4.449219 10 9.976562 10 h 84.042969 c 5.53125 0 9.980469 -4.460937 9.980469 -10 v -63.976562 c 0 -5.539062 -4.449219 -10 -9.980469 -10 z m 0 0" fill="none" stroke="#2a4a3a" stroke-width="0.8" opacity="0.5"/>
+</svg>

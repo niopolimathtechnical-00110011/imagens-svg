@@ -1,0 +1,283 @@
+<svg height="128px" viewBox="0 0 128 128" width="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <!-- Filtros de brilho neon para cada cor -->
+        <filter id="neonRed" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonOrange" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonYellow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonCyan" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonPurple" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonPink" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="neonWhite" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.6" result="blur1"/>
+            <feGaussianBlur stdDeviation="1.2" result="blur2"/>
+            <feMerge><feMergeNode in="blur2"/><feMergeNode in="blur1"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+
+        <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="17.999982" x2="109.999715" y1="70.999989" y2="70.999989">
+            <stop offset="0" stop-color="#26a269"/>
+            <stop offset="0.0394022" stop-color="#42d390"/>
+            <stop offset="0.0869565" stop-color="#2ec27e"/>
+            <stop offset="0.956524" stop-color="#2ec27e"/>
+            <stop offset="1" stop-color="#26a168"/>
+        </linearGradient>
+        
+        <clipPath id="b"><path d="m 18 32 h 92 v 82 h -92 z m 0 0"/></clipPath>
+        <clipPath id="c"><path d="m 26.65625 32 h 74.6875 c 4.78125 0 8.65625 3.875 8.65625 8.65625 v 64.6875 c 0 4.78125 -3.875 8.65625 -8.65625 8.65625 h -74.6875 c -4.78125 0 -8.65625 -3.875 -8.65625 -8.65625 v -64.6875 c 0 -4.78125 3.875 -8.65625 8.65625 -8.65625 z m 0 0"/></clipPath>
+        
+        <filter id="d" height="100%" width="100%" x="0%" y="0%">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+        
+        <mask id="e">
+            <g filter="url(#d)"><rect fill-opacity="0.2" height="128" width="128"/></g>
+        </mask>
+        
+        <clipPath id="f"><rect height="152" width="192"/></clipPath>
+        
+        <linearGradient id="g" gradientTransform="matrix(1.043478 0 0 0.909091 -6.95654 -159.27274)" gradientUnits="userSpaceOnUse" x1="22" x2="114" y1="206" y2="206">
+            <stop offset="0" stop-color="#deddda"/>
+            <stop offset="0.0562887" stop-color="#eeedec"/>
+            <stop offset="0.117776" stop-color="#deddda"/>
+            <stop offset="0.892135" stop-color="#deddda"/>
+            <stop offset="0.945937" stop-color="#efeeed"/>
+            <stop offset="1" stop-color="#c3c2bc"/>
+        </linearGradient>
+        
+        <clipPath id="h"><path d="m 20 12 h 6 v 24 h -6 z m 0 0"/></clipPath>
+        <clipPath id="i"><path d="m 24 12 h 80 c 2.210938 0 4 1.789062 4 4 v 16 c 0 2.210938 -1.789062 4 -4 4 h -80 c -2.210938 0 -4 -1.789062 -4 -4 v -16 c 0 -2.210938 1.789062 -4 4 -4 z m 0 0"/></clipPath>
+        
+        <linearGradient id="j" gradientTransform="matrix(1.043478 0 0 0.873303 -46.695677 -45.017061)" gradientUnits="userSpaceOnUse" x1="63.916664" x2="75.416664" y1="79.029953" y2="79.029953">
+            <stop offset="0" stop-color="#77767b"/>
+            <stop offset="1" stop-color="#77767b" stop-opacity="0"/>
+        </linearGradient>
+        
+        <clipPath id="k"><path d="m 20 12 h 88 v 24 h -88 z m 0 0"/></clipPath>
+        <clipPath id="l"><path d="m 24 12 h 80 c 2.210938 0 4 1.789062 4 4 v 16 c 0 2.210938 -1.789062 4 -4 4 h -80 c -2.210938 0 -4 -1.789062 -4 -4 v -16 c 0 -2.210938 1.789062 -4 4 -4 z m 0 0"/></clipPath>
+        
+        <mask id="m">
+            <g filter="url(#d)"><rect fill-opacity="0.317" height="128" width="128"/></g>
+        </mask>
+        
+        <linearGradient id="n" gradientTransform="matrix(-1.043478 0 0 0.873303 182.695658 -29.017061)" gradientUnits="userSpaceOnUse" x1="63.916672" x2="75.416672" y1="76.739799" y2="76.739799">
+            <stop offset="0" stop-color="#ffffff"/>
+            <stop offset="1" stop-color="#e8e7e8" stop-opacity="0"/>
+        </linearGradient>
+        
+        <clipPath id="o"><rect height="152" width="192"/></clipPath>
+        
+        <linearGradient id="p" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#deddda"/>
+            <stop offset="1" stop-color="#ffffff"/>
+        </linearGradient>
+        
+        <linearGradient id="q" x1="80.428823" x2="80.499478" y1="90.759449" y2="83.384449">
+            <stop offset="0" stop-color="#deddda"/>
+            <stop offset="1" stop-color="#ffffff"/>
+        </linearGradient>
+        
+        <linearGradient id="r" x1="45.608907" x2="53.124498" y1="89.499714" y2="93.999714">
+            <stop offset="0" stop-color="#deddda"/>
+            <stop offset="1" stop-color="#ffffff"/>
+        </linearGradient>
+        
+        <linearGradient id="s" x1="64.374326" x2="57.932443" y1="60.000004" y2="62.777791">
+            <stop offset="0" stop-color="#deddda"/>
+            <stop offset="1" stop-color="#ffffff"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Fundo da lixeira (original) -->
+    <path d="m 26 34 h 76 c 4.417969 0 8 3.582031 8 8 v 66 c 0 4.417969 -3.582031 8 -8 8 h -76 c -4.417969 0 -8 -3.582031 -8 -8 v -66 c 0 -4.417969 3.582031 -8 8 -8 z m 0 0" fill="#26a269"/>
+    <path d="m 26 30 h 76 c 4.417969 0 8 3.582031 8 8 v 68 c 0 4.417969 -3.582031 8 -8 8 h -76 c -4.417969 0 -8 -3.582031 -8 -8 v -68 c 0 -4.417969 3.582031 -8 8 -8 z m 0 0" fill="url(#a)"/>
+    
+    <g clip-path="url(#b)">
+        <g clip-path="url(#c)">
+            <g clip-path="url(#f)" mask="url(#e)" transform="matrix(1 0 0 1 -8 -16)">
+                <path d="m 31.882812 26 h 80.234376 c 4.355468 0 7.882812 3.527344 7.882812 7.882812 v 24.234376 c 0 4.355468 -3.527344 7.882812 -7.882812 7.882812 h -80.234376 c -4.355468 0 -7.882812 -3.527344 -7.882812 -7.882812 v -24.234376 c 0 -4.355468 3.527344 -7.882812 7.882812 -7.882812 z m 0 0"/>
+            </g>
+        </g>
+    </g>
+    
+    <!-- Tampa da lixeira -->
+    <path d="m 24 8 h 80 c 4.417969 0 8 3.582031 8 8 v 24 c 0 4.417969 -3.582031 8 -8 8 h -80 c -4.417969 0 -8 -3.582031 -8 -8 v -24 c 0 -4.417969 3.582031 -8 8 -8 z m 0 0" fill="url(#g)"/>
+    <path d="m 24 8 h 80 c 4.417969 0 8 3.582031 8 8 v 16 c 0 4.417969 -3.582031 8 -8 8 h -80 c -4.417969 0 -8 -3.582031 -8 -8 v -16 c 0 -4.417969 3.582031 -8 8 -8 z m 0 0" fill="#f6f5f4"/>
+    <path d="m 24 12 h 80 c 2.210938 0 4 1.789062 4 4 v 16 c 0 2.210938 -1.789062 4 -4 4 h -80 c -2.210938 0 -4 -1.789062 -4 -4 v -16 c 0 -2.210938 1.789062 -4 4 -4 z m 0 0" fill="#9a9996"/>
+    
+    <g clip-path="url(#h)">
+        <g clip-path="url(#i)">
+            <path d="m 26 12 h -6 v 24 h 6 z m 0 0" fill="url(#j)"/>
+        </g>
+    </g>
+    
+    <g clip-path="url(#k)">
+        <g clip-path="url(#l)">
+            <g clip-path="url(#o)" mask="url(#m)" transform="matrix(1 0 0 1 -8 -16)">
+                <path d="m 110 28 v 24 h 6 v -24 z m 0 0" fill="url(#n)"/>
+            </g>
+        </g>
+    </g>
+    
+    <!-- ========== CHUVA DE MANTRAS COLORIDA SOBRE O FUNDO VERDE ========== -->
+    
+    <!-- Caracteres VERMELHOS -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#ff4444" filter="url(#neonRed)">
+        <text x="8" y="48" opacity="0.7">ॐ</text>
+        <text x="8" y="56" opacity="0.85">श्रीं</text>
+        <text x="8" y="64" opacity="0.6">म</text>
+        <text x="8" y="72" opacity="0.9">हा</text>
+        <text x="8" y="80" opacity="0.75">ला</text>
+        <text x="8" y="88" opacity="0.5">क्ष्म्यै</text>
+        <text x="8" y="96" opacity="0.8">न</text>
+        <text x="8" y="104" opacity="0.65">मः</text>
+        <text x="8" y="112" opacity="0.4">ॐ</text>
+    </g>
+    
+    <!-- Caracteres LARANJA -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#ffaa33" filter="url(#neonOrange)">
+        <text x="20" y="45" opacity="0.5">सोऽ</text>
+        <text x="20" y="53" opacity="0.75">सोऽह</text>
+        <text x="20" y="61" opacity="0.9">सोऽहम्</text>
+        <text x="20" y="69" opacity="0.8">हम्</text>
+        <text x="20" y="77" opacity="0.6">म्</text>
+        <text x="20" y="85" opacity="0.85">सोऽ</text>
+        <text x="20" y="93" opacity="0.7">सोऽह</text>
+        <text x="20" y="101" opacity="0.45">सोऽहम्</text>
+        <text x="20" y="109" opacity="0.3">म्</text>
+    </g>
+    
+    <!-- Caracteres AMARELO -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#ffff44" filter="url(#neonYellow)">
+        <text x="32" y="47" opacity="0.55">शान्तिः</text>
+        <text x="32" y="55" opacity="0.8">शान्तिः</text>
+        <text x="32" y="63" opacity="0.95">शान्तिः</text>
+        <text x="32" y="71" opacity="0.85">ॐ</text>
+        <text x="32" y="79" opacity="0.65">शा</text>
+        <text x="32" y="87" opacity="0.9">शान्तिः</text>
+        <text x="32" y="95" opacity="0.7">शान्तिः</text>
+        <text x="32" y="103" opacity="0.5">शान्तिः</text>
+        <text x="32" y="111" opacity="0.35">ॐ</text>
+    </g>
+    
+    <!-- Caracteres CIANO -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#44ffff" filter="url(#neonCyan)">
+        <text x="44" y="44" opacity="0.4">समृ</text>
+        <text x="44" y="52" opacity="0.65">समृद्</text>
+        <text x="44" y="60" opacity="0.85">समृद्ध</text>
+        <text x="44" y="68" opacity="0.95">समृद्धि</text>
+        <text x="44" y="76" opacity="0.8">द्धि</text>
+        <text x="44" y="84" opacity="0.6">समृ</text>
+        <text x="44" y="92" opacity="0.85">समृद्</text>
+        <text x="44" y="100" opacity="0.65">समृद्ध</text>
+        <text x="44" y="108" opacity="0.4">समृद्धि</text>
+    </g>
+    
+    <!-- Caracteres ROXO -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#aa66ff" filter="url(#neonPurple)">
+        <text x="56" y="46" opacity="0.6">कृतज्ञ</text>
+        <text x="56" y="54" opacity="0.85">कृत</text>
+        <text x="56" y="62" opacity="0.95">ज्ञ</text>
+        <text x="56" y="70" opacity="0.8">कृतज्ञ</text>
+        <text x="56" y="78" opacity="0.65">कृत</text>
+        <text x="56" y="86" opacity="0.9">ज्ञ</text>
+        <text x="56" y="94" opacity="0.7">कृतज्ञ</text>
+        <text x="56" y="102" opacity="0.5">कृत</text>
+        <text x="56" y="110" opacity="0.3">ज्ञ</text>
+    </g>
+    
+    <!-- Caracteres ROSA -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#ff66cc" filter="url(#neonPink)">
+        <text x="68" y="49" opacity="0.5">उद्घाट</text>
+        <text x="68" y="57" opacity="0.75">उद्</text>
+        <text x="68" y="65" opacity="0.9">घाट</text>
+        <text x="68" y="73" opacity="0.85">उद्घाट</text>
+        <text x="68" y="81" opacity="0.7">उद्</text>
+        <text x="68" y="89" opacity="0.9">घाट</text>
+        <text x="68" y="97" opacity="0.65">उद्घाट</text>
+        <text x="68" y="105" opacity="0.45">उद्</text>
+        <text x="68" y="113" opacity="0.25">घाट</text>
+    </g>
+    
+    <!-- Caracteres BRANCOS -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#ffffff" filter="url(#neonWhite)">
+        <text x="80" y="48" opacity="0.55">ॐ</text>
+        <text x="80" y="56" opacity="0.8">श्रीं</text>
+        <text x="80" y="64" opacity="0.95">महा</text>
+        <text x="80" y="72" opacity="0.85">लक्ष्म्यै</text>
+        <text x="80" y="80" opacity="0.7">नमः</text>
+        <text x="80" y="88" opacity="0.9">ॐ</text>
+        <text x="80" y="96" opacity="0.75">श्रीं</text>
+        <text x="80" y="104" opacity="0.55">महा</text>
+        <text x="80" y="112" opacity="0.35">लक्ष्म्यै</text>
+    </g>
+    
+    <!-- Caracteres VERDE CLARO -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6" fill="#88ff88" filter="url(#neonYellow)">
+        <text x="92" y="50" opacity="0.6">सोऽहम्</text>
+        <text x="92" y="58" opacity="0.85">सोऽ</text>
+        <text x="92" y="66" opacity="0.95">हम्</text>
+        <text x="92" y="74" opacity="0.8">सोऽहम्</text>
+        <text x="92" y="82" opacity="0.65">सोऽ</text>
+        <text x="92" y="90" opacity="0.9">हम्</text>
+        <text x="92" y="98" opacity="0.7">सोऽहम्</text>
+        <text x="92" y="106" opacity="0.5">सोऽ</text>
+        <text x="92" y="114" opacity="0.3">हम्</text>
+    </g>
+    
+    <!-- Caracteres AZUL CLARO -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="5.5" fill="#88ccff" filter="url(#neonCyan)">
+        <text x="104" y="52" opacity="0.45">समृद्धि</text>
+        <text x="104" y="60" opacity="0.7">समृ</text>
+        <text x="104" y="68" opacity="0.9">द्धि</text>
+        <text x="104" y="76" opacity="0.85">समृद्धि</text>
+        <text x="104" y="84" opacity="0.65">समृ</text>
+        <text x="104" y="92" opacity="0.85">द्धि</text>
+        <text x="104" y="100" opacity="0.6">समृद्धि</text>
+        <text x="104" y="108" opacity="0.4">समृ</text>
+        <text x="104" y="116" opacity="0.2">द्धि</text>
+    </g>
+    
+    <!-- Destaques brilhantes -->
+    <g font-family="'Noto Sans Devanagari', 'Arial', 'Segoe UI', sans-serif" font-size="6.5" fill="#ffffff" filter="url(#neonWhite)">
+        <text x="32" y="63" opacity="0.95">शान्तिः</text>
+        <text x="44" y="68" opacity="0.95">समृद्धि</text>
+        <text x="56" y="62" opacity="0.95">ज्ञ</text>
+        <text x="68" y="65" opacity="0.95">घाट</text>
+        <text x="80" y="64" opacity="0.95">महा</text>
+        <text x="92" y="66" opacity="0.95">हम्</text>
+        <text x="20" y="61" opacity="0.95">सोऽहम्</text>
+    </g>
+
+    <!-- Símbolos da lixeira (parte inferior) -->
+    <g fill-rule="evenodd">
+        <path d="m 73.804688 81.410156 l 10.390624 -6 l 3 5.199219 c 1.070313 1.855469 1.070313 4.140625 0 6 l -3 5.195313 l -2.195312 3.800781 l -6.929688 -11.996094 z m 0 0" fill="url(#q)"/>
+        <path d="m 58 88 v 12 h -6 c -2.144531 0 -4.125 -1.144531 -5.195312 -3 l -3 -5.195312 l -2.195313 -3.804688 z m 0 0" fill="url(#r)"/>
+        <path d="m 60.195312 72.195312 l -10.390624 -6 l 3 -5.195312 c 1.070312 -1.855469 3.050781 -3 5.195312 -3 h 10.390625 l -6.925781 12 z m 0 0" fill="url(#s)"/>
+        <path d="m 64 58 l -4.390625 0.003906 l 6.925781 11.996094 l 1.269532 2.195312 l -3.464844 2 l 12.660156 1.929688 l 4.660156 -11.929688 l -3.464844 2 l -3 -5.195312 c -1.070312 -1.855469 -3.050781 -3 -5.195312 -3 z m 0 0" fill="#ffffff"/>
+        <path d="m 70 84 l -8 10 l 8 10 v -4 h 6 c 2.144531 0 4.125 -1.144531 5.195312 -3 l 3 -5.195312 l 2.195313 -3.804688 h -16.390625 z m 0 0" fill="#ffffff"/>
+        <path d="m 53 71.484375 l -12.660156 1.925781 l 3.464844 2 l -3 5.195313 c -1.070313 1.859375 -1.070313 4.144531 0 6 l 2.996093 5.199219 l 2.199219 3.800781 l 6.925781 -12 l 1.269531 -2.195313 l 3.464844 2 z m 0 0" fill="#ffffff"/>
+    </g>
+</svg>
